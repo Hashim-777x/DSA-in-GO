@@ -1,11 +1,11 @@
 # DSA-in-GO ⚡
 
-> Solving Data Structures and Algorithms problems in Go.
-> One problem at a time. Built for interview prep and deep understanding.
+> Solving Neetcode 150 problems in Go.
+> One problem at a time. No copy-paste. No shortcuts.
 
 **Author:** Hashim — [@KillerPand34973](https://x.com/KillerPand34973)
 **Started:** June 2026 | Hyderabad, India
-**Platform:** [InterviewBit](https://www.interviewbit.com/)
+**Platform:** [Neetcode 150](https://neetcode.io/practice) | Submit on [LeetCode](https://leetcode.com)
 **Language:** Go (Golang)
 
 ---
@@ -14,31 +14,35 @@
 
 Most people solve DSA in Python or Java. I'm solving in Go because:
 - Go is my primary language for backend systems work
-- Solving DSA in Go forces deeper understanding of types, memory, and performance
+- Forces deeper understanding of types, memory, and performance
 - Every problem is practice for writing idiomatic Go, not just getting the answer
 
 ---
 
 ## Progress
 
-| Level | Topic | Problems | Status |
-|-------|-------|----------|--------|
-| 1 | Time Complexity | 15 | 🔲 |
-| 2 | Arrays | 44 | 🔲 |
-| 2 | Math | 29 | 🔲 |
-| 3 | Binary Search | 16 | 🔲 |
-| 3 | Bit Manipulation | 11 | 🔲 |
-| 3 | Strings | 33 | 🔲 |
-| 3 | Two Pointers | 16 | 🔲 |
-| 4 | Linked Lists | 19 | 🔲 |
-| 4 | Stacks and Queues | 12 | 🔲 |
-| 5 | Backtracking | 15 | 🔲 |
-| 5 | Hashing | 22 | 🔲 |
-| 6 | Heaps and Maps | 11 | 🔲 |
-| 6 | Tree Data Structure | 45 | 🔲 |
-| 7 | Dynamic Programming | 67 | 🔲 |
-| 7 | Greedy Algorithm | 10 | 🔲 |
-| 8 | Graph Data Structure | 32 | 🔲 |
+| # | Topic | Problems | Done | Status |
+|---|-------|----------|------|--------|
+| 1 | Arrays & Hashing | 9 | 0 | 🔲 |
+| 2 | Two Pointers | 5 | 0 | 🔲 |
+| 3 | Sliding Window | 6 | 0 | 🔲 |
+| 4 | Stack | 7 | 0 | 🔲 |
+| 5 | Binary Search | 7 | 0 | 🔲 |
+| 6 | Linked List | 11 | 0 | 🔲 |
+| 7 | Trees | 15 | 0 | 🔲 |
+| 8 | Heap / Priority Queue | 7 | 0 | 🔲 |
+| 9 | Backtracking | 9 | 0 | 🔲 |
+| 10 | Tries | 3 | 0 | 🔲 |
+| 11 | Graphs | 13 | 0 | 🔲 |
+| 12 | Advanced Graphs | 6 | 0 | 🔲 |
+| 13 | 1D Dynamic Programming | 12 | 0 | 🔲 |
+| 14 | 2D Dynamic Programming | 11 | 0 | 🔲 |
+| 15 | Greedy | 8 | 0 | 🔲 |
+| 16 | Intervals | 6 | 0 | 🔲 |
+| 17 | Math & Geometry | 8 | 0 | 🔲 |
+| 18 | Bit Manipulation | 7 | 0 | 🔲 |
+
+**Total: 0 / 150**
 
 ---
 
@@ -46,36 +50,55 @@ Most people solve DSA in Python or Java. I'm solving in Go because:
 
 ```
 DSA-in-GO/
-  arrays/
-  math/
-  binary-search/
-  bit-manipulation/
-  strings/
-  two-pointers/
-  linked-lists/
-  stacks-queues/
-  backtracking/
-  hashing/
-  heaps-maps/
-  trees/
-  dynamic-programming/
-  greedy/
-  graphs/
+├── 01-arrays-hashing/
+│   ├── contains-duplicate.go
+│   ├── two-sum.go
+│   └── ...
+├── 02-two-pointers/
+├── 03-sliding-window/
+├── 04-stack/
+├── 05-binary-search/
+├── 06-linked-list/
+├── 07-trees/
+├── 08-heap/
+├── 09-backtracking/
+├── 10-tries/
+├── 11-graphs/
+├── 12-advanced-graphs/
+├── 13-dp-1d/
+├── 14-dp-2d/
+├── 15-greedy/
+├── 16-intervals/
+├── 17-math-geometry/
+└── 18-bit-manipulation/
 ```
 
-Each file contains:
-- Problem statement in a comment at the top
-- My solution in Go
-- Time and space complexity noted at the bottom
+Each file looks like this:
+
+```go
+// Problem: Two Sum
+// Link: https://leetcode.com/problems/two-sum/
+// Difficulty: Easy
+//
+// Given an array of integers nums and an integer target,
+// return indices of the two numbers that add up to target.
+//
+// Time:  O(n)
+// Space: O(n)
+
+package main
+
+// solution here
+```
 
 ---
 
 ## How I'm Doing This
 
 - 1 problem every 2 days minimum
-- No copy-pasting solutions — write it myself, understand every line
-- If stuck for 15 minutes → look at the approach, not the code
-- Every solution committed to GitHub with a real commit message
+- No copy-pasting — write it myself, understand every line
+- Stuck for 15 minutes → watch Neetcode approach video, NOT the code
+- Every solution committed with a real commit message
 
 ---
 
