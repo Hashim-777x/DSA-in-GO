@@ -1,9 +1,26 @@
 package main
 
-import "fmt"	
+import "fmt"
 
-func main () {	
+func twoSum(nums []int, target int) []int {
+	indexMap := make(map[int]int)
+
+	for i, num := range nums {
+		complement := target - num
+		if j, ok := indexMap[complement]; ok {
+			return []int{j, i}
+		}
+		indexMap[num] = i
+	}
+
+	return nil
+}
+
+func main() {
 	arr := []int{2, 7, 11, 15}
 	target := 9
-	fmt.Println(arr, target)	
+	result := twoSum(arr, target)
+	fmt.Println("nums:", arr)
+	fmt.Println("target:", target)
+	fmt.Println("result:", result)
 }
