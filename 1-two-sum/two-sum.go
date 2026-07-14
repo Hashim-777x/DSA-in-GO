@@ -1,5 +1,5 @@
 func twoSum(nums []int, target int) []int {
- seen := make(map[int]int)
+ seen := make(map[int]int, len(nums)) // allocating fixed size 
  for index, current := range nums {
     x := target - current
     if xIndex , value := seen[x] ; value {
@@ -7,5 +7,5 @@ func twoSum(nums []int, target int) []int {
     }
     seen[current]= index
  }
- return []int{0,0}
+ return nil // so save memory space 
  }
