@@ -1,10 +1,12 @@
 func containsDuplicate(nums []int) bool {
-    hashmap := make(map[int]bool, len(nums)) 
-    for i:=0 ; i<len(nums) ; i++   {
-        if _,val := hashmap[nums[i]] ; val {
+    hashmap := make(map[int]bool)
+    var numb int 
+    var val bool 
+    for _, numb = range nums  {
+        if _,val = hashmap[numb] ; val {
             return true 
         }
-        hashmap[nums[i]]= true
+        hashmap[numb]= true
     }
     return false
 }
