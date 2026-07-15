@@ -1,5 +1,5 @@
 func containsDuplicate(nums []int) bool {
-    hashmap := make(map[int]bool)
+    hashmap := make(map[int]bool, len(nums))
     var numb int 
     var val bool 
     for _, numb = range nums  {
